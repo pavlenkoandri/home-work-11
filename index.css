@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: #000;
+  font-family: "Francois One", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  text-transform: uppercase;
+}
+main,
+header {
+  padding-left: 120px;
+  padding-right: 120px;
+}
+h2 {
+  font-family: "Francois One", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  text-transform: uppercase;
+}
+p {
+  color: #000;
+  font-family: "PT Sans", sans-serif;
+  padding-top: 40px;
+  font-size: 28px;
+}
+.header-list {
+  display: flex;
+}
+.eng {
+  color: #c9c9c9;
+  padding-right: 50px;
+  font-family: "Tourney", cursive;
+}
+li {
+  list-style: none;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+span {
+  font-family: "Farro", sans-serif;
+}
+
+mark {
+  background-color: #c9c9c9;
+}
+.document::after {
+  content: "/";
+  padding: 0 10px;
+}
+.header-list {
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 700;
+  font-family: "Staatliches", cursive;
+}
+.logo {
+  height: 54px;
+}
+.h-span {
+  display: flex;
+  padding-top: 70px;
+}
+.span-text {
+  display: flex;
+  padding-top: 70px;
+}
+
+main {
+  padding-bottom: 90px;
+}
+.harper {
+  font-weight: 300;
+  font-size: 30px;
+  padding-left: 10px;
+  position: relative;
+  bottom: 5px;
+}
